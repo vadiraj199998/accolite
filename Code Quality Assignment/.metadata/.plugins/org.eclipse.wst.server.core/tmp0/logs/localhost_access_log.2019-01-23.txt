@@ -1,0 +1,3 @@
+127.0.0.1 - - [23/Jan/2019:13:04:38 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [23/Jan/2019:13:04:40 +0530] "GET /SpringCode/WEB-INF/classes/com/au/spring/controller/Studentcontroller.java HTTP/1.1" 404 1047
+10.4.14.90 - - [23/Jan/2019:15:09:44 +0530] "GET / HTTP/1.1" 404 1074

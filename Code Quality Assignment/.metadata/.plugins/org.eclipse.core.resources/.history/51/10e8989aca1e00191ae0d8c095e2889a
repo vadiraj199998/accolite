@@ -1,0 +1,30 @@
+package com.spring.au.model;
+
+public class Student {
+	
+	private int studentid;
+	private String studentname;
+	private int marks;
+	public static final String STUDENT_NAME="name";
+	
+	public int getMarks() {
+		return marks;
+	}
+	public void setMarks(int marks) {
+		this.marks = marks;
+	}
+	public int getStudentId() {
+		return studentid;
+	}
+	public void setStudentId(int studentId) {
+		studentid = studentId;
+	}
+	public String getStudentName() {
+		return studentname;
+	}
+	public void setStudentName(String string) {
+		studentname = string;
+	}
+	
+	
+}

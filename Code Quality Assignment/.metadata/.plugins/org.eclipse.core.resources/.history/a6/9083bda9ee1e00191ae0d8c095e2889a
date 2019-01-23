@@ -1,0 +1,36 @@
+package com.au.spring.rowmapper;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
+
+import com.au.spring.model.Attendance;
+
+public class Studentrowmapper implements RowMapper {
+	//public List<Attendance> getAllEmployeesRowMapper1()
+	// { return jdbcTemplate.query("select * from Attendence",new RowMapper<Attendance>(){
+
+	//public Object mapRow(ResultSet rs, int rowNum) throws SQLException {
+		// TODO Auto-generated method stub
+		//return null;
+	//}
+		@Autowired
+		private JdbcTemplate jdbcTemplate;
+		public void setTemplate(JdbcTemplate template) {  
+		    this.jdbcTemplate = template;  
+		}
+	 public List<Attendance> getAllEmployeesRowMapper()
+	 { return jdbcTemplate.query("select * from Attendence",new RowMapper<Attendance>(){
+	 
+	 public Attendance mapRow(ResultSet rs, int rownumber) throws SQLException {
+	 Attendance e=new Attendance();
+	 e.setSid(rs.getInt(1));
+	 e.setName(rs.getString(2));
+	 e.setStatus(rs.getString(3)); 
+	 return e; } }); }
+
+}

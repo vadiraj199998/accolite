@@ -1,0 +1,76 @@
+package com.spring.au.model;
+
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Student.
+ */
+public class Student {
+	
+	/** The studentid. */
+	private int studentid;
+	
+	/** The studentname. */
+	private String studentname;
+	
+	/** The marks. */
+	private int marks;
+	
+	/** The Constant STUDENT_NAME. */
+	public static final String STUDENT_NAME="name";
+	
+	/**
+	 * Gets the marks.
+	 *
+	 * @return the marks
+	 */
+	public int getMarks() {
+		return marks;
+	}
+	
+	/**
+	 * Sets the marks.
+	 *
+	 * @param marks the new marks
+	 */
+	public void setMarks(int marks) {
+		this.marks = marks;
+	}
+	
+	/**
+	 * Gets the student id.
+	 *
+	 * @return the student id
+	 */
+	public int getStudentId() {
+		return studentid;
+	}
+	
+	/**
+	 * Sets the student id.
+	 *
+	 * @param studentId the new student id
+	 */
+	public void setStudentId(int studentId) {
+		studentid = studentId;
+	}
+	
+	/**
+	 * Gets the student name.
+	 *
+	 * @return the student name
+	 */
+	public String getStudentName() {
+		return studentname;
+	}
+	
+	/**
+	 * Sets the student name.
+	 *
+	 * @param string the new student name
+	 */
+	public void setStudentName(String string) {
+		studentname = string;
+	}
+	
+	
+}
