@@ -1,0 +1,16 @@
+package com.au.Observablepattern;
+
+public class CurrentScoreDisplay {
+	private int runs, wickets; 
+     
+  
+    public void update(int runs,int wickets) 
+    { 
+        this.runs = runs; 
+        this.wickets = wickets; 
+        System.out.println("Currentbill"+runs*wickets); 
+    } 
+  
+    
+
+}

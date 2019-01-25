@@ -1,0 +1,16 @@
+package com.au.Observablepattern;
+
+public class AverageScoreDisplay {
+	private int runRate; 
+    private int predictedbill; 
+  
+    public void update(int orders, int bill) 
+    { 
+        this.runRate = orders;
+        this.predictedbill = orders*bill;
+        System.out.println("Predicted bill" +"\n"+orders*bill);
+        
+        
+    } 
+  
+}

@@ -1,0 +1,10 @@
+package com.designpatters.Adpaterdesign;
+
+public interface Bombdevp {
+	public Energy get120Volt();
+	
+	public Energy get12Volt();
+	
+	public Energy get3Volt();
+
+}

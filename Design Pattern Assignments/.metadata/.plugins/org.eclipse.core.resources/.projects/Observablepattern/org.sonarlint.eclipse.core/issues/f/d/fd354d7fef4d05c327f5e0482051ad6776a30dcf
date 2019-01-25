@@ -1,0 +1,14 @@
+
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(›ğÊØ8¢ó§±ˆ-HwRMAJORZ
+CODE_SMELL
+dsquid:S1068"+Remove this unused "runRate" private field.(§÷Ç×ùÿÿÿÿ8òÑí±ˆ-H‡RMAJORZ
+CODE_SMELL
+Œsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(’÷›õúÿÿÿÿHxRMINORZ
+CODE_SMELL
+esquid:S1068"1Remove this unused "predictedbill" private field.(´À˜8òÑí±ˆ-HˆRMAJORZ
+CODE_SMELL
+squid:S1450"VRemove the "runRate" field and declare it as a local variable in the relevant methods.(§÷Ç×ùÿÿÿÿ8œÊÀ±ˆ-HzRMINORZ
+CODE_SMELL
+squid:S1450"\Remove the "predictedbill" field and declare it as a local variable in the relevant methods.(´À˜8òÑí±ˆ-H‰RMINORZ
+CODE_SMELL

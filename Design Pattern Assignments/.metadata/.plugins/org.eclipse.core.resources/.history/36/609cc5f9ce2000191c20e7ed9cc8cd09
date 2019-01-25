@@ -1,0 +1,13 @@
+package com.au.Observablepattern;
+
+public class Test {
+	public static void main(String args[]) 
+    { 
+        
+        Runningorders averageScoreDisplay = new Runningorders(); 
+        CurrentScoreDisplay currentScoreDisplay = new CurrentScoreDisplay(); 
+        Orders cricketData = new Orders(currentScoreDisplay,averageScoreDisplay); 
+        cricketData.dataChanged(); 
+    } 
+
+}

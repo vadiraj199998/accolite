@@ -1,0 +1,5 @@
+package com.au.AbstractFactory;
+
+public class Apartmentfactory {
+
+}

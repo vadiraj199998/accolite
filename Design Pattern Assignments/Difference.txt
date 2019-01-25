@@ -1,0 +1,12 @@
+Factory Pattern:
+
+1. Create object through inheritance
+2. Produce only one product
+3. Implements code in the abstract creator that make use of the concrete type that sub-class produces.
+
+
+Abstract Factory Pattern:
+
+1. Create object through composition
+2. Produce families of products
+3. Concrete factories implements factory method to create product.

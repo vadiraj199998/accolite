@@ -1,0 +1,8 @@
+package com.designpatters.Adpaterdesign;
+
+public class Bomb {
+	public Energy getEnergy(){
+		return new Energy(120);
+	}
+
+}

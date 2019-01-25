@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Abstractfactory&apos;&#x0D;&#x0A;- Original project: &apos;Abstractfactory&apos;&#x0D;&#x0A;- Original element: &apos;Abstractfactory/src/main/java/com.designpatters.Abstractfactory&apos;" description="Delete element" element1="/src\/main\/java&lt;com.designpatters.Abstractfactory" element2="/src\/main\/java&lt;com.designpatters" element3="/src\/main\/java&lt;com" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1548347764430" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,16 @@
+package com.au.Observablepattern;
+
+public class Runningorders {
+	private int runRate; 
+    private int predictedbill; 
+  
+    public void update(int orders, int bill) 
+    { 
+        this.runRate = orders;
+        this.predictedbill = bill;
+        System.out.println("Predicted bill" +"\n"+bill);
+        
+        
+    } 
+  
+}

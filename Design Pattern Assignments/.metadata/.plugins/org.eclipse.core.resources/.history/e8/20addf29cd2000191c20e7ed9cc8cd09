@@ -1,0 +1,44 @@
+package com.au.Observablepattern;
+
+public class CricketData {
+	int runs, wickets; 
+    float overs; 
+    CurrentScoreDisplay currentScoreDisplay; 
+    AverageScoreDisplay averageScoreDisplay;  
+    public CricketData(CurrentScoreDisplay currentScoreDisplay, 
+                       AverageScoreDisplay averageScoreDisplay) 
+    { 
+        this.currentScoreDisplay = currentScoreDisplay; 
+        this.averageScoreDisplay = averageScoreDisplay; 
+    } 
+ 
+    private int getLatestRuns() 
+    { 
+        
+        return 100; 
+    } 
+   
+    private int getLatestWickets() 
+    { 
+        
+        return 10; 
+    } 
+  
+    private float getLatestOvers() 
+    { 
+        
+        return (float)15.5; 
+    } 
+  
+    
+    public void dataChanged() 
+    { 
+        
+        runs = getLatestRuns(); 
+        wickets = getLatestWickets(); 
+        overs = getLatestOvers(); 
+  
+        currentScoreDisplay.update(runs,wickets,overs); 
+        averageScoreDisplay.update(runs,wickets,overs); 
+    } 
+} 

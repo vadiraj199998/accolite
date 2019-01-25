@@ -1,0 +1,10 @@
+package com.au.AbstractFactory;
+
+import com.au.Model.Building;
+
+public class Buildingfactory {
+	public static Building getComputer(Buildingabstractfactory factory){
+		return factory.createbuilding();
+	}
+
+}
